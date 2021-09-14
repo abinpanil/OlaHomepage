@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+}
+.headercontainer{
+    position: relative;
+
+}
+.allnavbar{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    
+    
+}
+.primarynavbar{
+    
+    justify-content: end;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    padding: .8vh .2vh;
+    padding-right: 25vh;
+}
+.olalinks{
+    float: right;
+    padding-right: 20vh;
+    
+}
+.primarynavbar .olalinks .linkstyle{
+    display: inline-block;
+    border-right: 1px solid rgba(255, 255, 255, 0.8);
+    padding: 0 15px;
+}
+.linkstyle a{
+    text-decoration: none ;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+}
+.primarynavbar .olalinks .linkstyle:last-child{
+    border: 0;
+
+}
