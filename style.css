@@ -346,18 +346,22 @@ section{
     padding-bottom: 22px;
     padding-left: 3px;
 }
-.items_list{
+.item_list{
     display: flex;
     padding-top: 20px;
+    flex-direction: row;
+    width: 100vw;
+    
 }
 .first_sec{
     display: flex;
+   flex-direction: column;
+    width: 40vw;
 }
 .second_sec{
     display: flex;
-}
-.third_sec{
-    display: flex;
+   flex-direction: column;
+    width: 40vw;
 }
 .item_image{
     width: 140px;
@@ -384,5 +388,5 @@ section{
     line-height: 24px;
 }
 .first_item{
-    padding-right: 140px;
+    padding-top: 20px;
 }
