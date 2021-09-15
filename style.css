@@ -1,15 +1,44 @@
+@font-face {
+    font-family: 'Gentona';
+    src: url('Resources/fonts/Gentona-Book.eot');
+    src: url('Resources/fonts/Gentona-Book.woff') format('woff'), url('Resources/fonts/Gentona-Book.otf'), url('Resources/fonts/Gentona-book.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gentona';
+    src: url('Resources/fonts/Gentona-Medium.eot');
+    src: url('Resources/fonts/Gentona-Medium.woff') format('woff'), url('Resources/fonts/Gentona-Medium.otf'), url('Resources/fonts/Gentona-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Gentona';
+    src: url('Resources/fonts/Gentona-Light.eot');
+    src: url('Resources/fonts/Gentona-Light.woff') format('woff'), url('Resources/fonts/Gentona-Light.otf'), url('Resources/fonts/Gentona-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Gentona';
+    src: url('Resources/fonts/Gentona-SemiBold.eot');
+    src: url('Resources/fonts/Gentona-SemiBold.woff') format('woff'), url('Resources/fonts/Gentona-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Gentona';
     text-decoration: none;
 }
 .headercontainer{
     position: fixed;
     width: 100%;
     overflow-y: scroll;
-    /* scroll-padding: 100px; */
-    z-index:10;
+    scroll-padding: 100px;
+    z-index:1000;
     overflow: hidden;
 
 }
@@ -121,10 +150,11 @@ body{
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, #000000 100%);
 }
 section{
-    padding-top: 20px;
+    /* padding-top: 20px; */
+    display: block;
 }
 .booking_div{
-    left: 20px;
+    left: 20vh;
     position: absolute;
     width: 51.6vh;
     border-radius: 4px;
@@ -171,6 +201,7 @@ section{
 }
 .message_sub_header p{
     font-size: 14px;
+    font-weight: 200;
     margin: 0 auto;
     color: #424a54;
 }
@@ -178,10 +209,72 @@ section{
     width: 49.5vh;
     margin: 6px;
     border: none;
-    background-color: #f5f5f5;;
+    background-color: #f5f5f5;
     height: 5.4vh;
     outline: none;
 }
 #search_cabs_button{
     background-color: #cddc39;
+    font-weight: 550;
+    font-size: 16px;
+}
+.first_scroll{
+    padding-left: 134px;
+    padding-right: 134px;
+    position: relative;
+
+}
+.features_scroll{
+    display: flex;
+}
+.features_scroll .first_feature .content_img_holder{
+    position: absolute;
+}
+.content_img_holder{
+   
+}
+.first_scroll .features_scroll{
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 25%);
+    justify-content: space-around;
+    position: relative;
+    background-color: #FFFFFF;
+    top: -45px;
+    border-right: 1px solid rgba(255, 255, 255, 0.8);
+
+    
+}
+.box{
+    display: block;
+    padding: 20px 20px 60px 20px;
+    margin-left: 134px;
+    margin-right: 134px;
+}
+.container{
+    letter-spacing: 0.3px;
+}
+.second_head{
+    font-size: 36px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.92);
+    margin-bottom: 5px;
+}
+.second_sub_head{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.92);
+    opacity: 0.5;
+    line-height: 20px;
+}
+.first_card_list_container{
+    display:flex;
+    color: #bbadad;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 70px;
+
+}
+.card_img{
+    background: rgba(0, 0, 0, 0.3);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
