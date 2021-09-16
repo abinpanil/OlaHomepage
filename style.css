@@ -231,9 +231,6 @@ section{
 .features_scroll .first_feature .content_img_holder{
     position: absolute;
 }
-.content_img_holder{
-   
-}
 .first_scroll .features_scroll{
     box-shadow: 0 0 8px 0 rgb(0 0 0 / 25%);
     justify-content: space-around;
@@ -418,6 +415,7 @@ section{
     height: 500px;
     position: relative;
     top: -2px;
+    border-bottom: 1px solid #E9E9E9 ;
 }
 .pic_divider{
     display: flex;
@@ -430,4 +428,68 @@ section{
 .auto_content{
     margin-top: 40px;
     margin-left: 40px;
+    color: #333333;
+    
+}
+.sub-title{
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    color: #333333;
+}
+.auto_info{
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+    width: 80%;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+}
+.auto_info_image{
+    display: flex;
+}
+.image_card_list1{
+    width: 22px;
+    height: 22px;
+    padding-left: 22px;
+}
+.get_app{
+    display: flex;
+    padding-top: 7%;
+    flex-direction: row;
+    
+
+}
+.app_link{
+    display: flex;
+    max-width: 50%;
+    flex-direction: column;
+}
+.app_img{
+    max-width: 50%;
+    float: left;
+    text-align: center;
+}
+.ola_booking_img{
+    background-size: cover;
+    width: 467px;
+    padding-left: 130px;
+}
+.app_store_img{
+    display: flex;
+    text-align: center;
+    padding-top: 80px;
+    
+}
+.store_img{
+    margin-right: 10px;
+    max-width: 140px;
+}
+.app_text{
+    padding-top: 100px;
+}
+.get_app_full{
+    box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 14%);
 }
