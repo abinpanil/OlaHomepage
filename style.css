@@ -490,6 +490,52 @@ section{
 .app_text{
     padding-top: 100px;
 }
-.get_app_full{
-    box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 14%);
+.services{
+    display: flex;
+    justify-content: space-between;
+
+}
+.service_img{
+    width: 45px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.service_div{
+    position: relative;
+}
+.service_text{
+    padding-left: 55px;
+}
+footer{
+    color: #fff;
+    padding: 20px 0;
+    background: #393939;
+    letter-spacing: 0.3px
+}
+.box_app{
+    display: block;
+    padding: 20px 20px 7px 20px;
+    margin-left: 134px;
+    margin-right: 134px;
+
+}
+.main_footer_head{
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.footer_rows{
+    display: flex;
+    
+}
+.footer_rows ul{
+    list-style: none;
+}
+.footer_rows ul li a{
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 300;
+    text-decoration: none;
+}
+.footer_rows ul li{
+    font-size: 12px;
 }
