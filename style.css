@@ -77,6 +77,9 @@ body{
     font-size: 14px;
     
 }
+.linkstyle a:hover{
+    color: #c2cf08;
+}
 .primarynavbar .olalinks .linkstyle:last-child{
     border: 0;
 
@@ -98,8 +101,9 @@ body{
     color: rgba(0, 0, 0, 0.8);
     font-size: 16px;
     padding: 11px 22px;
-    
-    
+}
+.navbarfeatures:hover{
+    color: #c2cf08;
 }
 .secondary-ola-links{
    display: flex; 
@@ -116,6 +120,9 @@ body{
     color: rgba(0, 0, 0, 0.8);
     border-radius: 2px;
     margin-top: 2px;
+}
+.secondarynavbar .secondary-ola-links .book-now-button:hover{
+    background: #c2cf08;
 }
 .banner{
     background-image: url(Resources/Background.jpg);
@@ -320,6 +327,9 @@ section{
     bottom: auto;
     align-items: center;
 }
+.share_type_div:hover{
+    background-color: #c2cf08;
+}
 .share_type{
     width: 60px;
     height: 60px;
@@ -393,10 +403,26 @@ section{
     padding-top: 80px;
     justify-content: space-around;
 }
+.ola_op{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .op_img{
-    width: 80px;
-    height: 80px;
+    height: 55px;
+    cursor: pointer;
+    width: 55px;
+    align-items: center;
+    display: flex;
+    padding: 20px;
     
+}
+.op_img:hover{
+    background-color:#c2cf08 ;
+    border-radius: 50%;
+}
+.ola_op img{
+    width: 55px;
 }
 .ola_op label{
     display: block;
@@ -450,11 +476,20 @@ section{
 .auto_info_image{
     display: flex;
 }
+.auto_info_icon{
+    margin: 2px;
+}
 .image_card_list1{
     width: 22px;
     height: 22px;
-    padding-left: 22px;
+    padding: 12px;
+    cursor: pointer;
 }
+.image_card_list1:hover{
+    background-color: #c2cf08;
+    border-radius: 50%;
+}
+
 .get_app{
     display: flex;
     padding-top: 7%;
