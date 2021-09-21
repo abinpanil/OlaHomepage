@@ -234,13 +234,14 @@ section{
 }
 .features_scroll{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .features_scroll .first_feature .content_img_holder{
-    position: absolute;
 }
 .first_scroll .features_scroll{
     box-shadow: 0 0 8px 0 rgb(0 0 0 / 25%);
-    justify-content: space-around;
+    /* justify-content: space-around; */
     position: relative;
     background-color: #FFFFFF;
     top: -45px;
@@ -571,6 +572,11 @@ footer{
     font-weight: 300;
     text-decoration: none;
 }
+.first_feature{
+    display: flex;
+    align-items: center;
+}
 .footer_rows ul li{
     font-size: 12px;
+    
 }
